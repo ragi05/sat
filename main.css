@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: bold;
+
+}
+body{
+    height:100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right,rgb(120, 103, 218),rgb(158, 60, 76));
+}
+form{
+    width: 25rem;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    background: rgb(187, 184, 184,0.06);
+    box-shadow: 0 8px 32px 0 rgb(31, 38, 135,.37);
+    border-radius: 30px;
+    border-left: 1px solid rgb(255, 248, 248,.3);
+    border-top:  1px solid rgb(255, 248, 248,.3);
+    margin-bottom: 30px;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    text-shadow: 4px 2px 6px rgb(0,0,0,.2);
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+}
+label{
+    font-size: 20px;
+    color:black;
+    margin-left: 10%;
+opacity:.6 ;
+text-shadow: 4px 2px 4px 6px rgb(0,0,0,.2);
+}
+input{
+    width: 80%;
+    margin: 5% auto;
+    font-size: medium;
+    background: transparent;
+    margin-bottom: 2%;
+    color: black;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    
+}
+#button{
+    width: 45%;
+    margin: none;
+    color: white;
+    outline: none;
+    border-radius: 20px;
+    font-size: 15px;
+    background: rgb(255,255,255,0.06);
+   padding: 10px 30px;  
+   border: none;
+   text-shadow: 2px 4px 4px rgb(253, 251, 251,0.03);
+   box-shadow: 3px 3px 5px rbg(25,255,255,.37);
+   border-left: 1px solid rgb(255, 255, 255,.3);
+   border-top: 1px solid rgb(255, 255, 255,.3);
+   
+
+}
+a{
+    text-align: center;
+    font-size: 15px;
+    
+    color: rgb(142, 142, 233);
+
+
+}

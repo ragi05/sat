@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+
+    background-color: rgb(182, 178, 178);
+
+}
+.para{
+    top: 55%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-55%,-55%);
+
+}
+.sec{
+    padding: 60px 60px 60px 60px;
+    background: rgb(219, 219, 217);
+    border-radius: 10px;
+}
+
+
+
+#h1{
+background: black;
+color: blue;
+border-radius: 10px;
+border-bottom: 1px solid white;
+
+
+
+}
+#h2{
+background: firebrick;
+color: gold;
+padding: 7px;
+border-radius: 10px;
+border-bottom: 1px solid white;
+}
+#h3{
+background: rgb(148, 148, 250);
+color: rgb(116, 60, 168);
+padding: 7px;
+border-radius: 10px;
+border-bottom: 1 px solid white;
+}
